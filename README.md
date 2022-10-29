@@ -15,3 +15,8 @@ dotnet add package System.Drawing.Common -v 6.0.0
 ## App can runs in single file 
 *How it works?*  
 > [Dotnet Single File Deployment](https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview?tabs=cli)
+
+## Starting app with parameters
+```cmd
+InvertColors.exe -ic "source path" "destination path"
+```
